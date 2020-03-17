@@ -137,9 +137,9 @@ LEARN MORE [HERE](https://yogalayout.com/docs/align-content)
 
 ### Flex Wrap
 
-The [`flexWrap`](https://facebook.github.io/react-native/docs/layout-props#flexwrap) property is set on containers and controls what happens when children overflow the size of the container along the main axis. By default children are forced into a single line (which can shrink elements). If wrapping is allowed items are wrapped into multiple lines along the main axis if needed.
+[`flexWrap`](https://facebook.github.io/react-native/docs/layout-props#flexwrap)属性是设置在容器上，用来控制子元素沿主轴方向超出容器时要如何处理。默认情况下子元素强制排为一行不换行（子元素会收缩，值为 `nowrap`）,如果值设置为 `nowrap`,则根据需要沿项目主轴多行显示。
 
-When wrapping lines `alignContent` can be used to specify how the lines are placed in the container. learn more [here](https://yogalayout.com/docs/flex-wrap)
+当换行时，`alignContent`可用于设置子元素如在容器中的排列方式。 了解更多[此处]（https://yogalayout.com/docs/flex-wrap）
 
 ![Flex Wrap](https://cdn-images-1.medium.com/max/800/1*_7v4uQhSsuCn1cfeOMVfrA.png)
 
